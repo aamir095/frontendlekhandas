@@ -1,0 +1,82 @@
+.navbar{
+    height: 6vh;
+    background-color: #fff;
+    width: 100vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    .center{
+        width: 90.5vw;
+        margin: auto;
+    }
+    .stylenav{
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navmenu{
+        height: 100%;
+
+        width: 53.6vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .navitem{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            a{
+                text-decoration: none;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                margin-right: 33px;
+                color: #DCDCDC;
+            }
+        }
+        .loginsignup{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            
+            span{
+                display: flex;
+                align-items: center;
+                height: 60.86%;
+                margin: 0 0.5vw;
+                padding: 0 1.5vw 0.2vh 1.5vw;
+                border-radius: 2vw;
+                background: #6772E4;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                a{
+                    text-decoration: none;
+                    margin: 0;
+                    padding: 0;
+                    display: inline-block;
+                    color: #fff;
+                }
+               
+                
+            }
+            span:last-child{
+                background: #F5F5F5;
+                a{
+                    color: #7830FA;
+                }
+            }
+
+        }
+    }
+}
+.content1{
+    width: 100%;
+    overflow: hidden;
+    .right{
+       svg{
+           position: absolute;
+           right: 0;
+       }
+    };
+}
