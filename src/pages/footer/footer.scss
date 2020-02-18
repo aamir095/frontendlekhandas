@@ -1,0 +1,43 @@
+
+.center{
+    width:80vw;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    
+}
+.links{
+    border-top: 2px solid #5A5A5A;
+    padding: 3vh 0;
+
+}
+
+.links-list1 a{
+    
+    text-decoration: none;
+    color:red;
+   
+    
+} 
+
+.footerInfo{
+    border-top: 2px solid #5A5A5A;
+    padding: 3vh 0;
+    background-color:  #FBFBFB;
+    
+   
+}
+
+.footerEnd{
+    border-top: 2px solid #5A5A5A;
+    margin: 2em;
+    padding:0;
+}
+.footer-end{
+    text-align: center;
+}
+
+h5,ul {
+    padding:0;
+    margin:0;
+}
