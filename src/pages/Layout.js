@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header/Header';
 import Footer from './footer/Footer';
+import Association from './content/Association';
 
 class Layout extends React.Component{
 
@@ -9,7 +10,7 @@ class Layout extends React.Component{
     <div>
         
         <Header/>
-        
+        <Association/>
         <Footer/>
     </div>
     );
