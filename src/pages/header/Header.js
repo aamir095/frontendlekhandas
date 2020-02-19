@@ -29,10 +29,10 @@ export default class Header extends React.Component{
                         </div>
                         <div className="loginsignup">
                             <span>
-                            <a href="#">Sign Up</a>
+                            <a href="#">SIGN UP</a>
                             </span>
                             <span>
-                            <a href="#">Sign In</a>
+                            <a href="#">SIGN IN</a>
                             </span>
                         </div>
                     </div>
