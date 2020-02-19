@@ -15,9 +15,13 @@ export default class Association extends Component {
             slidesToScroll: 3
           };
         return (
+
+          <div>
+            <div id="caroseal1">
+            <div className="center">
             
-            <div className="association-carousel">
-                <div className="center">
+            <div className="association-carousel" >
+                
             <h2 className="association">Association</h2>
               <Slider {...settings}>
               <div className="middle">
@@ -50,6 +54,9 @@ export default class Association extends Component {
             </Slider>
             </div>
             </div>
+            </div>
+            </div>
+
          
 
         );

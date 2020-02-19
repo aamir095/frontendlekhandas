@@ -4,9 +4,8 @@ import './Header.scss';
 
 
 export default class Header extends React.Component{
-
-
-render(){
+    
+    render(){
         return(
             <div>
                 <div className="navbar" >
@@ -26,19 +25,18 @@ render(){
                         </div>
                         <div className="loginsignup">
                             <span>
-                            <a href="#">Sign Up</a>
+
+                            <a href="#">SIGN UP</a>
                             </span>
                             <span>
-                            <a href="#">Sign In</a>
+                            <a href="#">SIGN IN</a>
+
                             </span>
                         </div>
                     </div>
                     </div>
                     </div>
                 </div>
-
-
-
             </div>
         );
     }
