@@ -5,7 +5,7 @@ import './footer.scss';
 export default class Footer extends React.Component{
     render(){
         return(
-            <div className="footer">
+            <div id="footer">
                 <div className="links">
                     <div className='center'>
                    <div className='links-list1'>
@@ -63,7 +63,7 @@ export default class Footer extends React.Component{
                     </div>
                    
                 <div className="footerEnd">
-                    <div className="footer-end">&copy; Lekhandas. All rights reserved. </div>
+                    <div className="footer-end">&copy; Lekhandas. All Rights Reserved. </div>
 
                 </div>
                 </div>

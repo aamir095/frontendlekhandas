@@ -1,6 +1,5 @@
 import React from 'react';
 import Flexbox from 'flexbox-react';
-import Img from 'react-image';
 import './Header.scss';
 
 
@@ -9,7 +8,6 @@ export default class Header extends React.Component{
     render(){
         return(
             <div>
-
                 <div className="navbar" >
                 <div className="center">
                     <div className="stylenav">

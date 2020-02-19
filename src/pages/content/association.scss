@@ -1,0 +1,51 @@
+
+#caroseal1{
+    .center{
+        width: 80vw;
+        margin: auto;
+    }
+
+
+.association{
+    text-align: center;
+    padding:1em;
+    
+}
+.dotClass{
+    color: red;
+}
+
+.association-carousel{
+    margin-bottom:3em;
+    .center{
+        display: block !important;
+        .middle{
+            display: flex !important;
+            justify-content: center;
+        }
+        .slick-slide{
+            img{
+                width: 15vw ;
+                height: 20vh ;
+            }
+        }
+    }
+}
+.slick-arrow{
+    height: 5vh;
+    width: 3vw;
+    margin: 0 -3vw;
+    }
+    .slick-prev:before, .slick-next:before{
+        color:#000;
+        font-size: 2vw;
+    }
+    .slick-dots li button:before {
+        font-size: 1.2vw;
+        padding: 1em 0;
+    }
+   .slick-active button:before{
+        color: red !important;
+    }
+    margin-bottom: 4em;
+}
