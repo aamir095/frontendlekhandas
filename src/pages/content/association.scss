@@ -1,0 +1,30 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.association{
+    text-align: center;
+    padding:1em;
+    
+}
+.dotClass{
+    color: red;
+}
+
+.association-carousel{
+    margin-bottom:3em;
+    .center{
+        display: block !important;
+        .middle{
+            display: flex !important;
+            justify-content: center;
+        }
+        .slick-slide{
+            img{
+                width: 15vw !important;
+                height: 20vh !important;
+            }
+        }
+    }
+}

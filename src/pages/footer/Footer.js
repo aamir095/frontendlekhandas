@@ -63,7 +63,7 @@ export default class Footer extends React.Component{
                     </div>
                    
                 <div className="footerEnd">
-                    <div className="footer-end">&copy; Lekhandas. All rights reserved. </div>
+                    <div className="footer-end">&copy; Lekhandas. All Rights Reserved. </div>
 
                 </div>
                 </div>
