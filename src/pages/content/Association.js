@@ -35,6 +35,18 @@ export default class Association extends Component {
               <div className="middle">
               <img src={demo}/>
               </div>
+              <div className="middle">
+              <img src={demo}/>
+              </div>
+              <div className="middle">
+              <img src={demo}/>
+              </div>
+              <div className="middle">
+              <img src={demo}/>
+              </div>
+              <div className="middle">
+              <img src={demo}/>
+              </div>
             </Slider>
             </div>
             </div>

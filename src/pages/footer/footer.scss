@@ -15,22 +15,26 @@
 .links-list1 a{
     
     text-decoration: none;
-    color:red;
+    color:#0000EE;
    
     
 } 
 
 .footerInfo{
     border-top: 2px solid #5A5A5A;
-    padding: 3vh 0;
+    padding-top: 3vh ;
     background-color:  #FBFBFB;
     
    
 }
+p{
+    margin:0;
+    padding:0;
+}
 
 .footerEnd{
     border-top: 2px solid #5A5A5A;
-    margin: 2em;
+    margin-top: 1em;
     padding:0;
 }
 .footer-end{

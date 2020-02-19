@@ -14,7 +14,7 @@ render(){
                     <div className="stylenav">
                     <div className="logo">
                         <a href="#">
-                        <img src="../../assets/lekhandas.png"/>
+                        
                         </a>
                     </div>
                     <div className="navmenu">

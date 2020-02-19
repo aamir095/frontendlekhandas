@@ -1,15 +1,11 @@
-img{
-    width: 100px;
-    height: 100px;
-}
 
 .association{
     text-align: center;
     padding:1em;
     
 }
-.dotClass{
-    color: red;
+.slick-prev, .slick-next{
+    background:blue !important;
 }
 
 .association-carousel{
@@ -22,8 +18,8 @@ img{
         }
         .slick-slide{
             img{
-                width: 15vw !important;
-                height: 20vh !important;
+                width: 15vw ;
+                height: 20vh ;
             }
         }
     }
