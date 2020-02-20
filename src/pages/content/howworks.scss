@@ -1,0 +1,22 @@
+#working-box{
+    width: 100vw;
+    height: 30vw;
+    background: #FFFFFF;
+    margin:2em 0;
+    h2{
+        margin:0;
+        text-align: center;
+        padding:0.5em;
+    }
+    .center{
+        display: flex;
+        justify-content: space-between;
+        margin:auto;
+        width:70vw;
+    }
+    .process{
+        display: flex ;
+        
+    }
+
+}

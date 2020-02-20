@@ -2,7 +2,10 @@ import React from 'react';
 import Header from './header/Header';
 import Footer from './footer/Footer';
 import Association from './content/Association';
-import Content1 from './content/Content1';
+import Testimonials from './content/Testimonials';
+import WhyLekhandas from './content/WhyLekhandas';
+import Services from './content/Services';
+import HowWorks from './content/HowWorks';
 
 class Layout extends React.Component{
 
@@ -11,7 +14,10 @@ class Layout extends React.Component{
     <div>
         
         <Header/>
-        <Content1/>
+        <Services/>
+        <HowWorks />
+        <WhyLekhandas/>
+        <Testimonials/>
         <Association/>
         <Footer/>
     </div>
