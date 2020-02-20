@@ -1,6 +1,7 @@
 import React from 'react';
 import Flexbox from 'flexbox-react';
 import './Header.scss';
+import Lekhandas from '../../assets/Lekhandas.png'
 
 
 export default class Header extends React.Component{
@@ -9,11 +10,12 @@ export default class Header extends React.Component{
         return(
             <div>
                 <div className="navbar" >
-                <div className="center">
+                     <div className="center">
                     <div className="stylenav">
                     <div className="logo">
                         <a href="#">
-                        
+                <img src={Lekhandas} alt="Lekhandas" />
+
                         </a>
                     </div>
                     <div className="navmenu">
@@ -21,7 +23,7 @@ export default class Header extends React.Component{
                             <a href="#">Home</a>
                             <a href="#">Services</a>
                             <a href="#">About Us</a>
-                            <a href="#">Gallery</a>
+                       <a href="#">Gallery</a>
                         </div>
                         <div className="loginsignup">
                             <span>

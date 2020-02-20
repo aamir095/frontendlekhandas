@@ -3,8 +3,9 @@
     height: 10vh;
 
     background-color: #fff;
-    width: 100vw;
+    width: 98.7vw;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
     .center{
         width: 90.5vw;
         margin: auto;
@@ -29,11 +30,12 @@
             display: flex;
             align-items: center;
             a{
+                box-sizing: border-box;
                 text-decoration: none;
                 font-family: Roboto;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 25px;
+                font-size: 20px;
                 margin-right: 33px;
                 color: #DCDCDC;
             }
@@ -54,6 +56,7 @@
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
                 a{
+                    box-sizing: border-box;
                     text-decoration: none;
                     margin: 0;
                     padding: 0 1.5vw;
@@ -62,7 +65,7 @@
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: normal;
-                    font-size: 20px;
+                    font-size: 15px;
 
                 }
                

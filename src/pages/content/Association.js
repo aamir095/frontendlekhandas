@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import './association.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import demo from '../../assets/images/image.jpg';
+import demo from "../../assets/images/image.jpg";
+
  
 export default class Association extends Component {
     render() {

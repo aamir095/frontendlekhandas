@@ -41,7 +41,15 @@
         padding: 1em 0;
     }
    .slick-active button:before{
-        color: red !important;
+        color: #D00000 !important;
+    }
+    .slick-slide img {
+        width: 15vw;
+        height: 20vh ;
+    }
+    .middle{
+        display: flex !important;
+        justify-content: center;
     }
     .slick-slide img{
            

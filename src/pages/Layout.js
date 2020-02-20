@@ -6,6 +6,7 @@ import Testimonials from './content/Testimonials';
 import WhyLekhandas from './content/WhyLekhandas';
 import Services from './content/Services';
 import HowWorks from './content/HowWorks';
+import Content1 from './content/Content1';
 
 class Layout extends React.Component{
 
@@ -14,6 +15,7 @@ class Layout extends React.Component{
     <div>
         
         <Header/>
+        <Content1/>
         <Services/>
         <HowWorks />
         <WhyLekhandas/>
