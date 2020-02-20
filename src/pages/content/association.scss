@@ -6,14 +6,13 @@
     }
 
 
-
 .association{
     text-align: center;
-    
+    padding:1em;
     
 }
-.slick-prev, .slick-next{
-    background:blue !important;
+.dotClass{
+    color: red;
 }
 
 .association-carousel{
@@ -24,7 +23,6 @@
             display: flex !important;
             justify-content: center;
         }
-        
     }
 }
 .slick-arrow{
@@ -51,11 +49,5 @@
         display: flex !important;
         justify-content: center;
     }
-    .slick-slide img{
-           
-        width: 15vw ;
-        height: 20vh ;
-    
-}
     margin-bottom: 4em;
 }
