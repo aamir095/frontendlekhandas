@@ -1,20 +1,22 @@
 #testimonial{
+    margin-top: 2em;
+    
     .grey-box{
-        height:53vh;
-        width:100vw;
         background: #C1C1C1;
+        padding: 2em 0 3em 0;
     }
     h2{
         text-align: center;
-        padding-bottom: 1em;
-        padding-top:0.2em;
+        padding: 0;
+        margin: 0;
     }
     
     .center{
-        width: 81.5vw;
+        width: 70vw;
         margin: auto;
         display: flex;
         justify-content: space-between;
+        margin-top: 4em;
     }
     
     .total-box{

@@ -1,3 +1,5 @@
+
+
 import React, {Component} from 'react';
 import './services.scss';
 import time from '../../assets/images/time.png';
@@ -14,14 +16,14 @@ export default  class Services extends React.Component{
                 <Zoom  delay={100}>
                     <div className='service-list'>
                         <img src={time} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of Private Company</strong></p>
                     </div>
                     </Zoom>
                     <Zoom  delay={200}>
                     <div className='service-list'>
                         <img src={pen} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration 
                         of Private Company</strong></p>
                     </div>
                     </Zoom>
@@ -29,7 +31,7 @@ export default  class Services extends React.Component{
                     <Zoom  delay={400}>   
                     <div className='service-list'>
                         <img src={time} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration 
                         of Private Company</strong></p>
                     </div>
                     </Zoom>
@@ -38,7 +40,7 @@ export default  class Services extends React.Component{
                     <Zoom  delay={600}> 
                     <div className='service-list'>
                         <img src={pen} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration 
                         of  Company</strong></p>
                     </div>
                     </Zoom>
@@ -52,7 +54,7 @@ export default  class Services extends React.Component{
                 <Zoom  delay={800}> 
                     <div className='service-list'>
                         <img src={pen} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of Private Company</strong></p>
                     </div>
                 </Zoom>   
@@ -60,7 +62,7 @@ export default  class Services extends React.Component{
                 <Zoom  delay={1000}> 
                     <div className='service-list'>
                         <img src={time} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of Private Company</strong></p>
                     </div>
                 </Zoom>
@@ -68,7 +70,7 @@ export default  class Services extends React.Component{
                 <Zoom  delay={1200}> 
                     <div className='service-list'>
                         <img src={pen} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of Private Company</strong></p>
                     </div>
                 </Zoom>
@@ -76,7 +78,7 @@ export default  class Services extends React.Component{
                 <Zoom  delay={1400}> 
                     <div className='service-list'>
                         <img src={time} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of  Company</strong></p>
                     </div>
                 </Zoom>
