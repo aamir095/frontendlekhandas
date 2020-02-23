@@ -26,18 +26,18 @@ class Layout extends React.Component{
         <Bounce left>
         <Services/>
         </Bounce>
-        <Bounce right delay={2000}>
+        <Bounce right delay={300}>
         <HowWorks />
         </Bounce>
-        <Bounce >
+        <Bounce  delay={500}>
         <WhyLekhandas/>
         </Bounce>
-        <Zoom ssrFadeout>
+        <Zoom ssrFadeout  delay={400} >
         <Testimonials/>
         </Zoom>
-        <Jump>
+        
         <Association/>
-        </Jump>
+        
         <Footer/>
     </div>
     );

@@ -52,21 +52,32 @@
                 content: "";
                 position: absolute;
                 bottom: 0;
-                height: 2px;
+                height: 4px;
                 display: block;
-                background-color: #bf8e04;
-                width: 0;
-                transition: width 0.5s;
+                background-color: #ffc525;
+                width:100%;
+                transition: width 0.2s;
+            }
+            a:before{
+                z-index: 1;
+                content: "";
+                position: absolute;
+                bottom: 0;
+                height: 4px;
+                display: block;
+                width: 100%;
+                background-color: #fff;
+                transform: scaleX(1);
+                transition: transform 0.2s;
+              
 
               
             }
         }
 
             span:hover{
-                a:after{
-                    width: 100%;
-                    
-
+                a:before{
+                   transform: scaleX(0)
                 }
             }
             img{

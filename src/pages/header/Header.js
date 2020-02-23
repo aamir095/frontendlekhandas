@@ -41,7 +41,7 @@ export default class Header extends React.Component{
                             <a href="#">SIGN UP</a>
                             </span>
                             <span>
-                            <a href="#">SIGN IN</a>
+                            <a href="/login">SIGN IN</a>
 
                             </span>
                         </div>
