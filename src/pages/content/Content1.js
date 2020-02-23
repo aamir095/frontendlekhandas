@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './content1.scss';
-import meet from '../../assets/images/meet.png'
+import meet from '../../assets/images/meet.png';
+
  
 export default class Content1 extends Component {
     render() {

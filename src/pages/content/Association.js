@@ -26,31 +26,31 @@ export default class Association extends Component {
             <h2 className="association">Association</h2>
               <Slider {...settings}>
               <div className="middle">
-                <img src={demo}/>
+                <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
             </Slider>
             </div>

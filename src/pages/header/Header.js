@@ -1,7 +1,7 @@
 import React from 'react';
-import Flexbox from 'flexbox-react';
 import './Header.scss';
-import Lekhandas from '../../assets/Lekhandas.png'
+import Lekhandas from '../../assets/Lekhandas.png';
+import Home from '../../assets/images/home.png';
 
 
 export default class Header extends React.Component{
@@ -20,7 +20,7 @@ export default class Header extends React.Component{
                     </div>
                     <div className="navmenu">
                         <div className="navitem">
-                            <a href="#">Home</a>
+                            <a href="#"><img src={Home}/></a>
                             <a href="#">Services</a>
                             <a href="#">About Us</a>
                        <a href="#">Gallery</a>
