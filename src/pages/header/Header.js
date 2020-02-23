@@ -14,20 +14,26 @@ export default class Header extends React.Component{
                     <div className="stylenav">
                     <div className="logo">
                         <a href="#">
-<<<<<<< HEAD
-                        
-=======
+            
                 <img src={Lekhandas} alt="Lekhandas" />
 
->>>>>>> a6bb94afade87f81c37a6d9f1c03c21536df4023
                         </a>
                     </div>
                     <div className="navmenu">
                         <div className="navitem">
+                            <span>
                             <a href="#">Home</a>
+                            </span>
+                            <span>
+                                
                             <a href="#">Services</a>
+                            </span>
+                            <span>
                             <a href="#">About Us</a>
-                       <a href="#">Gallery</a>
+                            </span>
+                            <span>
+                            <a href="#">Gallery</a>
+                            </span>
                         </div>
                         <div className="loginsignup">
                             <span>

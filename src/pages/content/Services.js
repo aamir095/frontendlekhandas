@@ -1,3 +1,5 @@
+
+
 import React, {Component} from 'react';
 import './services.scss';
 import time from '../../assets/images/time.png';
@@ -12,25 +14,25 @@ export default  class Services extends React.Component{
                 <div className="center">
                     <div className='service-list'>
                         <img src={time} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of Private Company</strong></p>
                     </div>
 
                     <div className='service-list'>
                         <img src={pen} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration 
                         of Private Company</strong></p>
                     </div>
 
                     <div className='service-list'>
                         <img src={time} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration 
                         of Private Company</strong></p>
                     </div>
 
                     <div className='service-list'>
                         <img src={pen} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration 
                         of  Company</strong></p>
                     </div>
 
@@ -42,25 +44,25 @@ export default  class Services extends React.Component{
                 <div className="center">
                     <div className='service-list'>
                         <img src={pen} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of Private Company</strong></p>
                     </div>
 
                     <div className='service-list'>
                         <img src={time} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of Private Company</strong></p>
                     </div>
 
                     <div className='service-list'>
                         <img src={pen} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of Private Company</strong></p>
                     </div>
 
                     <div className='service-list'>
                         <img src={time} />
-                        <p><strong>New Registration <br/>
+                        <p><strong>New Registration
                         of  Company</strong></p>
                     </div>
 

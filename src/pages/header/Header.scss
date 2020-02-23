@@ -1,6 +1,8 @@
 .navbar{
 
     height: 10vh;
+    position: fixed;
+    z-index: 1;
 
     background-color: #fff;
     width: 98.7vw;
@@ -29,6 +31,14 @@
             height: 100%;
             display: flex;
             align-items: center;
+            span{
+                position: relative;
+                margin-right: 33px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+
             a{
                 box-sizing: border-box;
                 text-decoration: none;
@@ -36,8 +46,28 @@
                 font-style: normal;
                 font-weight: normal;
                 font-size: 20px;
-                margin-right: 33px;
-                color: #DCDCDC;
+                color: #6f6f6f;
+            }
+            a:after{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                height: 2px;
+                display: block;
+                background-color: #bf8e04;
+                width: 0;
+                transition: width 0.5s;
+
+              
+            }
+        }
+
+            span:hover{
+                a:after{
+                    width: 100%;
+                    
+
+                }
             }
         }
         .loginsignup{
@@ -72,9 +102,17 @@
                 
             }
             span:last-child{
-                background: #F5F5F5;
+                background: none;
+                // box-shadow: none;
+                border: 1px solid black;
                 a{
                     color: #7830FA;
+                }
+                a:after{
+                    content: "";
+                    width: 100%;
+                    background-color: red;
+                    display: block;
                 }
             }
 
