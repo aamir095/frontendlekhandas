@@ -14,9 +14,7 @@ export default class Header extends React.Component{
                     <div className="stylenav">
                     <div className="logo">
                         <a href="#">
-            
                 <img src={Lekhandas} alt="Lekhandas" />
-
                         </a>
                     </div>
                     <div className="navmenu">
@@ -25,7 +23,6 @@ export default class Header extends React.Component{
                             <a href="#">Home</a>
                             </span>
                             <span>
-                                
                             <a href="#">Services</a>
                             </span>
                             <span>
@@ -36,13 +33,14 @@ export default class Header extends React.Component{
                             </span>
                         </div>
                         <div className="loginsignup">
+                            
                             <span>
-
                             <a href="#">SIGN UP</a>
                             </span>
                             <span>
+                            <div className="animation">
                             <a href="#">SIGN IN</a>
-
+                            </div>
                             </span>
                         </div>
                     </div>
