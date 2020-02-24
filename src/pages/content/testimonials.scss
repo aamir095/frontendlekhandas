@@ -16,7 +16,8 @@
         margin: auto;
         display: flex;
         justify-content: space-between;
-        margin-top: 4em;
+        flex-wrap: wrap;
+
     }
     
     .total-box{
@@ -25,9 +26,11 @@
         width:13rem;
         height:17rem;
         background-color: white;
-        padding:1em,0;
+        padding:1em 0;
         position: relative;
         border-radius: 1em;
+        margin: 4em 0 3em 0;
+
         .image{
             position: absolute;
             height: 5em;

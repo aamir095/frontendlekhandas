@@ -13,7 +13,6 @@ class Layout extends React.Component{
     render(){
     return(
     <div>
-        
         <Header/>
         <Content1/>
         <Services/>
