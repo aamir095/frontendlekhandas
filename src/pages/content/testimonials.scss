@@ -14,16 +14,27 @@
     .center{
         width: 70vw;
         margin: auto;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        display: block;
+        .slick-slide {
+            div:first-child{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        }
+        button{
+            display: none !important;
+        }
+
+       
 
     }
     
     .total-box{
-        display: flex;
+        display: flex !important;
         justify-content: center;
-        width:13rem;
+        width:13rem !important;
         height:17rem;
         background-color: white;
         padding:1em 0;
@@ -38,6 +49,7 @@
             background-color: yellow;
             border-radius: 2.5em;
             top:-2.5em;
+            align-items: center;
         }
     }
     

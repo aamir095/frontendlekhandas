@@ -2,11 +2,13 @@ import React from 'react';
 import Flexbox from 'flexbox-react';
 import './Header.scss';
 import Lekhandas from '../../assets/Lekhandas.png';
+import $ from 'jquery'; 
 
 
 
 
 export default class Header extends React.Component{
+    
     
     render(){
         return(
@@ -25,7 +27,7 @@ export default class Header extends React.Component{
                             <a href="#">Home</a>
                             </span>
                             <span >
-                            <a href="#">Services</a>
+                            <a href="#" onClick={this.showhide} >Services</a>
                             </span>
                             <span>
                             <a href="#">About Us</a>
