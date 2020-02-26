@@ -10,17 +10,17 @@ import Content1 from './content/Content1';
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
 import config from 'react-reveal/globals';
-import Jump from 'react-reveal/Jump';
-import Fade from 'react-reveal/Fade';
+
+
 
 config({ ssrFadeout: true });
 
-class Layout extends React.Component{
+class Home extends React.Component{
 
     render(){
     return(
-    <div>
-        
+       
+        <div>
         <Header/>
         <Content1/>
         <Bounce left>
@@ -35,13 +35,13 @@ class Layout extends React.Component{
         <Zoom ssrFadeout  delay={400} >
         <Testimonials/>
         </Zoom>
-        
         <Association/>
-        
         <Footer/>
     </div>
+  
+ 
     );
 }
 }
 
-export default Layout;
+export default Home;

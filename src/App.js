@@ -1,6 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Layout from './pages/Layout';
+import Home from './pages/Layout';
 
 
-export default Layout;
+
+export default class App extends React.Component{
+    render(){
+        return(
+            <Home />
+           
+        );
+    }
+}

@@ -3,18 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Gallery from './pages/Gallery';
+import AboutUs from '../src/pages/AboutUs';
+import {Route, BrowserRouter }from 'react-router-dom';
 
 
-// const Pages= () =>{
-//     return(
-//       <div>
-//         <Route path="/signin" exact component={SignIN} />
-//         </div>
-//     )
-//   }
+  const Page=()=>{
+    return(
+        
+          <BrowserRouter>
+            <div >
+            <Route path="/"    exact component={App}/>
+            <Route path="/home"  component={App}/>
+            <Route path="/gallery"  component={Gallery}/>
+            <Route path="/about-us"  component={AboutUs}/>
+            </div>
+          
+           
+         
+        
+        </BrowserRouter>
+    )
+  }
 
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.unregister();
-
+  ReactDOM.render(<Page />, document.querySelector('#root'));

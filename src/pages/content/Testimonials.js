@@ -12,29 +12,29 @@ export default class Testimonials extends React.Component{
                <div className="grey-box">
                    <h2>Testimonials</h2>
                    <div className="center">
-                <div className='total-box'>
+                <div className='total-box'> 
                    <div className="image">
                    
-                   </div>
+                  
                    <p></p> 
-                   
-                </div>
-
-                <div className='total-box'>
-                   <div className="image">
-                   
                    </div>
+                   
+                
+
+                
+                   <div className="image">
                    <p></p> 
+                   </div>
                    
-                </div>
+                   
+                
 
-                <div className='total-box'>
+                
                    <div className="image">
                    
-                   </div>
                    <p> </p> 
-                   
-                </div>
+                   </div>
+                   </div>
                 
 
 
