@@ -4,6 +4,7 @@ import './association.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import demo from "../../assets/images/image.jpg";
+import Bounce from 'react-reveal/Bounce';
 
  
 export default class Association extends Component {
@@ -24,35 +25,38 @@ export default class Association extends Component {
             <div className="association-carousel" >
                 
             <h2 className="association">Association</h2>
+            <Bounce bottom >
               <Slider {...settings}>
               <div className="middle">
-                <img src={demo}/>
+                <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
               <div className="middle">
-              <img src={demo}/>
+              <img src={demo} alt='images'/>
               </div>
+              
             </Slider>
+            </Bounce>
             </div>
             </div>
             </div>

@@ -33,8 +33,9 @@ export default class Testimonials extends React.Component{
                 
 
                    
-                   </div>
+                  
                    <p></p> 
+                   </div>
                    
                 </div>
               
@@ -46,8 +47,10 @@ export default class Testimonials extends React.Component{
                    
                    </div>
                    <p></p> 
+                   </div>
                    
-                </div>
+                   
+                
 
                 <div className='total-box middle'>
                    <div className="image">

@@ -7,23 +7,40 @@ import WhyLekhandas from './content/WhyLekhandas';
 import Services from './content/Services';
 import HowWorks from './content/HowWorks';
 import Content1 from './content/Content1';
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
+import config from 'react-reveal/globals';
 
-class Layout extends React.Component{
+
+
+config({ ssrFadeout: true });
+
+class Home extends React.Component{
 
     render(){
     return(
     <div>
         <Header/>
         <Content1/>
+        <Bounce left>
         <Services/>
+        </Bounce>
+        <Bounce right delay={300}>
         <HowWorks />
+        </Bounce>
+        <Bounce  delay={500}>
         <WhyLekhandas/>
+        </Bounce>
+        <Zoom ssrFadeout  delay={400} >
         <Testimonials/>
+        </Zoom>
         <Association/>
         <Footer/>
     </div>
+  
+ 
     );
 }
 }
 
-export default Layout;
+export default Home;
