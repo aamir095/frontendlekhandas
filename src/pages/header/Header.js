@@ -10,6 +10,7 @@ import $ from 'jquery';
 export default class Header extends React.Component{
     
     
+    
     render(){
         return(
             <div>
@@ -45,6 +46,7 @@ export default class Header extends React.Component{
                             <a href="#">SIGN IN</a>
                             </div>
                             </span>
+                            
                         </div>
                     </div>
                     </div>
