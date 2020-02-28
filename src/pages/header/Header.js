@@ -13,7 +13,7 @@ export default class Header extends React.Component{
     render(){
         return(
            
-            <div>
+            <div id="header">
                 <div className="navbar" >
                      <div className="center">
                     <div className="stylenav">
