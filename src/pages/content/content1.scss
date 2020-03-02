@@ -5,15 +5,18 @@
         padding: 0;
     }
     height: 100vh;
-    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    // position: relative;
     .left{
-        position: absolute;
+        // position: absolute;
         display: flex;
         height: 100vh;
         width: 50vw;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 2;
         h1{
             font-family: Roboto;
             font-style: normal;
@@ -36,19 +39,24 @@
         
     }
     .right{
-        position: absolute;
-        right: 0;
+        position: relative;
+       right: 0;
+       top: 0;
         height: 100vh;
-        // width: 47vw;
+
+        width: 50vw;
         .image{
             position: absolute;
             top: 5vh;
-            right: 20vw;
+            left: 11vw;
+            height: 100vh;
             img{
-                height: 80vh;
-            }
-;
-            
+                height: 80%;
+            }            
+        }
+        svg{
+            position: absolute;
+            right: 0;
         }
         
     }

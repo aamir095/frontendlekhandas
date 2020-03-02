@@ -19,8 +19,7 @@ class Home extends React.Component{
 
     render(){
     return(
-       
-        <div>
+    <div>
         <Header/>
         <Content1/>
         <Bounce left>

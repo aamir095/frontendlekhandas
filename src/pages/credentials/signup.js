@@ -2,6 +2,8 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import './signup.scss';
+
 
 export default class SignUp extends React.Component {
   constructor(props) {
