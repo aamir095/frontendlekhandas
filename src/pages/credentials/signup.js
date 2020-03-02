@@ -6,12 +6,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 export default class SignUp extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { modal: false,name: '',team :'' ,country: '', individualAccount:false};
-
+    this.state = { modal: false, name: '', email:'',telephone:'', address:'', description:'' };
     this.toggle = this.toggle.bind(this);
-    this.changeAccountType = this.changeAccountType.bind(this);
-    this.handleChangeTeam = this.handleChangeTeam.bind(this);
-    this.handleChangeCountry = this.handleChangeCountry.bind(this);
+    this.handleChangeName = this.handleChangeName.bind(this);
+    this.handleChangeEmail = this.handleChangeEmail.bind(this);
+    this.handleChangeTelephone = this.handleChangeTelephone.bind(this);
+    this.handleChangeAddress = this.handleChangeAddress.bind(this);
+    this.handleChangeDescription = this.handleChangeDescription.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -20,24 +21,35 @@ export default class SignUp extends React.Component {
       modal: !this.state.modal
     });
   }
-  changeAccountType(event){
+
+  handleChangeName(event){
     this.setState({
-      accountType:event.target.value,
-      individualAccount:true
+      name: event.target.value
     });
 
-    console.log(this.state.accountType);
+  }
+  handleChangeEmail(event){
+    
+    this.setState({
+      email: event.target.value
+    });
+    
 
   }
-  handleChangeTeam(event) {
-    this.setState({team: event.target.value});
+  handleChangeTelephone(event) {
+    this.setState({telephone: event.target.value});
   }
-  handleChangeCountry(event) {
-    this.setState({country: event.target.value});
+  handleChangeAddress(event) {
+    this.setState({address: event.target.value});
+  }
+  handleChangeDescription(event){
+    this.setState({description:event.target.value});
   }
 
   handleSubmit(event) {
     event.preventDefault();
+    const data=this.state;
+    console.log(data);
      }
 
 
@@ -50,46 +62,44 @@ export default class SignUp extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <ModalHeader>New User Sign Up</ModalHeader>
           <ModalBody>
-          <div className="row">
+        
+           <div className="row">
             <div className="form-group col-md-4">
-            <label>Sign Up As:</label>
-            {/* <input type="text" value={this.state.name} onChange={this.handleChangeName} className="form-control" /> */}
-            <select  id="account-type" className="form-control" onChange={this.changeAccountType} >
-                <option value="individual">Individual</option>
-                <option value="organization">organization</option>
-            </select>
+            <label>Full Name:</label>
+            <input type="text" value={this.name} onChange= {this.handleChangeName} className="form-control" />
               </div>
-              </div>
-
-          {this.state.individualAccount}
-          <div className="row">
-            <div className="form-group col-md-4">
-            <label>Username:</label>
-            <input type="text" value={this.state.name} onChange={this.handleChangeName} className="form-control" />
-              </div>
-              </div>
-            <div className="row">
-             <div className="form-group col-md-4">
-            <label>Password:</label>
-                <input type="password" value={this.state.team} onChange={this.handleChangeTeam} className="form-control" />
-               </div>
-              </div>
-            <div className="row">
-             <div className="form-group col-md-4">
-              <label>Full Name:</label>
-                <input type="text" value={this.country} onChange={this.handleChangeCountry} className="form-control" />
-               </div>
               </div>
 
               <div className="row">
              <div className="form-group col-md-4">
-              <label>email:</label>
-                <input type="email" value={this.country} onChange={this.handleChangeCountry} className="form-control" />
+              <label>Email:</label>
+                <input type="email" value={this.state.email} onChange={this.handleChangeEmail} className="form-control" />
+               </div>
+              </div> 
+
+            <div className="row">
+             <div className="form-group col-md-4">
+            <label>Telephone:</label>
+                <input type="text" value={this.state.team} onChange={this.handleChangeTelephone} className="form-control" />
                </div>
               </div>
-  
 
-          </ModalBody>
+            <div className="row">
+             <div className="form-group col-md-4">
+              <label>Address:</label>
+                <input type="text" value={this.state.address} onChange={this.handleChangeAddress} className="form-control" />
+               </div>
+              </div>
+
+              <div className="row">
+             <div className="form-group col-md-9">
+              <label>Description:</label>
+                <textarea type="text" value={this.state.description} onChange={this.handleChangeDescription} className="form-control" rows="4" cols="100" />
+               </div>
+              </div>
+
+              
+         </ModalBody>
           <ModalFooter>
             <input type="submit" value="Submit" color="primary" className="btn btn-primary" />
             <Button color="danger" onClick={this.toggle}>Cancel</Button>

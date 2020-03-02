@@ -10,8 +10,7 @@ export default class Login extends React.Component {
 
     this.toggle = this.toggle.bind(this);
     this.handleChangeName = this.handleChangeName.bind(this);
-    this.handleChangeTeam = this.handleChangeTeam.bind(this);
-    this.handleChangeCountry = this.handleChangeCountry.bind(this);
+    this.handlePassword = this.handlePassword.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -23,13 +22,10 @@ export default class Login extends React.Component {
   handleChangeName(event) {
     this.setState({name: event.target.value});
   }
-  handleChangeTeam(event) {
-    this.setState({team: event.target.value});
+  handlePassword(event) {
+    this.setState({password: event.target.value});
   }
-  handleChangeCountry(event) {
-    this.setState({country: event.target.value});
-  }
-
+  
   handleSubmit(event) {
     event.preventDefault();
      }
@@ -53,7 +49,7 @@ export default class Login extends React.Component {
             <div className="row">
              <div className="form-group col-md-4">
             <label>Password:</label>
-                <input type="text" value={this.state.team} onChange={this.handleChangeTeam} className="form-control" />
+                <input type="password" value={this.state.password} onChange={this.handlePassword} className="form-control" />
                </div>
               </div>
           </ModalBody>
