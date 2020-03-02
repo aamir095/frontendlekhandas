@@ -4,9 +4,7 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import $ from 'jquery'; 
 
 
-
-
-    export default class Templete extends React.Component{
+export default class Templete extends React.Component{
         
     makeditable = () => {
         var selection= window.getSelection().getRangeAt(0);
