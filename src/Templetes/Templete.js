@@ -1,35 +1,64 @@
 import React, {Component} from 'react';
 import CKEditor from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import $ from 'jquery'; 
+import $ from 'jquery';
+import '../Templetes/templete.scss'; 
+var i = 0;
 
 
 
 
     export default class Templete extends React.Component{
+            
         
     makeditable = () => {
+        i++;
+        var a = 'editable'+i;
+        var b = 'forminput'+i;
+        var c = 'div'+i;
         var selection= window.getSelection().getRangeAt(0);
         var selectedText = selection.extractContents();
         var span= document.createElement("span");
+        var s = document.createElement('div');
+        var q = document.createElement('input');
         span.setAttribute("contenteditable", true);
-        span.setAttribute("id", "span");
+        span.setAttribute("id", a);
+        s.setAttribute("id", c);
+        q.setAttribute("id", b);
         span.appendChild(selectedText);
         selection.insertNode(span);
+        $('#form').append(s);
+        $('#' + c).append(q);
+        console.log(b);
+
+
     };
+    testok=()=>{
+        for (let x=1; x<=i; x++){
+            var a = 'editable'+x;
+            var b = 'forminput'+x; 
+            var df = $('#' + b).val();
+            var fd = $('#' + a);
+            fd.replaceWith(df);
+            console.log(df);
+            
+
+        }
+
+    }
     append = () => { 
         var x = $('.append-remove');
-        
-
         $('.append').empty();
         $('p').clone().appendTo(".append");
         $(x).toggle();
+        $('.append').toggle();
 
     }
 
     render(){
         return(
             <div>
+                <div className="maketemplete">
                     <input type="button" onClick={() => this.makeditable()} value="Make Editable" />
                 <input className="button" type="button" value="Done/Edit" onClick={() => this.append()} />
 
@@ -58,6 +87,11 @@ import $ from 'jquery';
                 </div>
                 </div>
                 <div className="append"></div>
+                </div>
+                <div id="form">
+
+                </div>
+                <button onClick={()=> this.testok()} >ok</button>
                 
                 
  
