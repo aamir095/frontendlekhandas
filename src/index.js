@@ -7,7 +7,11 @@ import AboutUs from '../src/pages/AboutUs';
 import Adminpanel from '../src/Adminpanel/Admin';
 import {Route, BrowserRouter }from 'react-router-dom';
 import Templete from '../src/Templetes/Templete';
-import Message from './pages/credentials/signupmsg';
+
+import Addtestimonial from '../src/Adminpanel/AddTestimonial';
+import Managetestimonials from './Adminpanel/Managetestimonials';
+import Manageassocation from './Adminpanel/Manageassocations';
+
 
 
 
@@ -20,12 +24,13 @@ import Message from './pages/credentials/signupmsg';
             <Route path="/home"  component={App}/>
             <Route path="/gallery"  component={Gallery}/>
             <Route path="/about-us"  component={AboutUs}/>
-            <Route path="/admin"  component={Adminpanel}/>
+            <Route path="/dashboard"  component={Adminpanel}/>
             <Route path="/templete"  component={Templete}/>
-            <Route path="/message" component={Message}/>
-
+            <Route path="/addtestimonial"  component={Addtestimonial}/>
+            <Route path="/managetestimonials"  component={Managetestimonials}/>
+            <Route path="/manageassocations" component={Manageassocation}/>
             </div>
-          </BrowserRouter>
+        </BrowserRouter>
     )
   }
 
