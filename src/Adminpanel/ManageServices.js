@@ -14,7 +14,7 @@ import Manageweb from './components/Manageweb';
 
 
 
-export default class Assocation extends React.Component{
+export default class ManageServices extends React.Component{
     render(){
         return(
             <div id="useradmin">
@@ -32,7 +32,7 @@ export default class Assocation extends React.Component{
                         <Manageweb/>
                     </div>
                     <div>
-                        <Link to='/addassociation'>Add</Link>
+                        <Link to='/addservice'>Add</Link>
                     </div>
                     
                     

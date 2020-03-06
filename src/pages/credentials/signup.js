@@ -51,8 +51,6 @@ export default  class SignUp extends React.Component {
   }
   handleSubmit(event) {
     this.setState({submit: !this.state.submit})
-    // var e=document.getElementById('form');
-    // e.remove();
     console.log(this.state);
   }
 
@@ -73,7 +71,7 @@ render() {
         <a href="#"  onClick={this.toggle}>Sign Up</a>
     <Modal isOpen={this.state.modal}>
 
-      {/* {this.state.submit? <Message/>:null} */}
+     
         <form id="form">
             <ModalHeader>New User Sign Up</ModalHeader>
             <ModalBody>

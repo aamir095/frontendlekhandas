@@ -14,7 +14,7 @@ import Manageweb from './components/Manageweb';
 
 
 
-export default class Adminpanel extends React.Component{
+export default class AddServices extends React.Component{
     render(){
         const addtestomonials = {
             position:"absolute",
@@ -64,22 +64,18 @@ export default class Adminpanel extends React.Component{
                     <div style={addtestomonials} >
                     <div>
 
-                        <h2 style={h1}>Add Testomonial</h2>
+                        <h2 style={h1}>Add a New Service</h2>
                         
                         <span style={data}>
-                            <label style={label}>Full Name:</label>
+                            <label style={label}>Servce Name:</label>
                             <input type="text" style={input}/>
                         </span>
                         <span style={data}>
-                            <label style={label}>Post:</label>
-                            <input type="text" style={input}/>
-                        </span>
-                        <span style={data}>
-                            <label style={label}>Image:</label>
+                            <label style={label}>Service Icon:</label>
                             <input type="file" style={input}/>
                         </span>
                         <span style={data}>
-                            <label style={label}>About:</label>
+                            <label style={label}>Service Description:</label>
                             <textarea style={textbox}/>
                         </span>
                         <span style={data}>
