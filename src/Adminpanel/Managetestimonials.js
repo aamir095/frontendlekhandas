@@ -1,5 +1,6 @@
 import React from 'react';
 import './admin.scss';
+import {Link} from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import Project from './components/Project';
 import Policies from './components/Policies';
@@ -30,7 +31,10 @@ export default class Adminpanel extends React.Component{
                         <Setting/>
                         <Manageweb/>
                     </div>
-                    <DashboardContent/>
+                    <div>
+                        <Link to='/addtestimonial'>Add</Link>
+                    </div>
+                    
                     
                 </div>
 

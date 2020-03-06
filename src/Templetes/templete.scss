@@ -1,3 +1,12 @@
+.center{
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    .button{
+        position: absolute;
+        right: 0;
+    }
+}
 .append{
     display: none;
 }

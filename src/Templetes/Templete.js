@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactDOM from 'react-dom';           
 import CKEditor from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import $ from 'jquery';
@@ -57,10 +58,9 @@ var i = 0;
 
     render(){
         return(
-            <div>
+            <div className="center">
                 <div className="maketemplete">
                     <input type="button" onClick={() => this.makeditable()} value="Make Editable" />
-                <input className="button" type="button" value="Done/Edit" onClick={() => this.append()} />
 
 
                     <div classname="editor">
@@ -84,6 +84,7 @@ var i = 0;
                         console.log( 'Focus.', editor );
                     } }
                 />
+
                 </div>
                 </div>
                 <div className="append"></div>
@@ -91,12 +92,24 @@ var i = 0;
                 <div id="form">
 
                 </div>
-                <button onClick={()=> this.testok()} >ok</button>
+                <input className="button" type="button" value="Done/Edit" onClick={() => this.append()} />
+
+                <button onClick={()=> this.testok()} >ok</button> 
+             
                 
-                
- 
             </div>
            
         );
+
+        
     }
+    
+    
 }
+// class ChildClass extends React.Component {
+//     render() {
+//         return (
+//             <div><h3>The child class.</h3></div>
+//         );
+//     }
+// }
